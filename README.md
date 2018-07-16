@@ -7,8 +7,8 @@ Python script to connect ssh automatically or user defined
 
 # Format:
 python3 sshconnect.py host <br />
-python3 sshconnect.py host username port
-or
-python3 sshconnect.py host username 
-or 
-python3 sshconnect.py host port
+python3 sshconnect.py host username port <br />
+or <br />
+python3 sshconnect.py host username <br />
+or <br />
+python3 sshconnect.py host port <br />
