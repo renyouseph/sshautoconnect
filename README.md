@@ -1,5 +1,5 @@
 # sshautoconnect
-Python script to connect ssh automatically or user defined
+Python script to connect ssh automatically 
 
 ## Feature List:
 * If username and port are not passed, python takes the default arguments for username='root' and port=22 <br />
