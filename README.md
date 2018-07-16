@@ -3,7 +3,7 @@ Python script to connect ssh automatically
 
 ## Feature List:
 * If username and port are not passed, python takes the default arguments for username='root' and port=22 <br />
-* If we missed to pass any of the keyword parameters, it taking the missing parameter by itself.
+* If we missed to pass any of the keyword arguments, it taking the missing parameter by itself.
 
 ### Usage:
 ```
