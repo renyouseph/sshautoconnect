@@ -1,5 +1,6 @@
 ### Requirements ####
 # apt-get install python3
+# apt-get install python3-pip
 # apt-get install openssh-server
 ###
 
@@ -19,8 +20,6 @@ if len(sys.argv) == 3:
         IPORT = sys.argv[2]
     else:
         IUSER = sys.argv[2]
-
-
 
 def sshConnect(HOST,*,USER='root',PORT=22):
   conString = 'ssh -p {} {}@{} {}'.format(PORT,USER,HOST,'-v')
