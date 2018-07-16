@@ -6,7 +6,7 @@ Python script to connect ssh automatically or user defined
 . If we pass either username or port, It takes the missing argument automatically.
 
 # Format:
-python3 sshconnect.py host 
+python3 sshconnect.py host \n
 python3 sshconnect.py host username port
 or
 python3 sshconnect.py host username 
